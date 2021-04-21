@@ -16,6 +16,7 @@ Include:
 ```
 
 To create a cookie, call the setCookie() function with arguments for the cookie name, the value, and the lifespan (in days).
+(To update a cookie, just call setCookie() again with the same name and the new value)
 
 ```javascript
 setCookie(cookieName, cookieValue, cookieLifespan);
