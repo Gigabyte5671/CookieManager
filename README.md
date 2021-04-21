@@ -1,5 +1,3 @@
-# CookieManager
-
 <p align="center"><img width="96" src="https://img.icons8.com/color/96/000000/cookies.png"></p>
 
 cookieManager.js
