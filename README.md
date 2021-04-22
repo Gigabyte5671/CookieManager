@@ -43,4 +43,4 @@ clearCookie(cookieName);
 
 ### Other ###
 
-<a href="https://icons8.com/icon/12878/cookies">Cookies icon by Icons8</a>
+<a href="https://icons8.com/icon/12878/cookies" target="_blank" rel="noreferrer">Cookies icon by Icons8</a>
