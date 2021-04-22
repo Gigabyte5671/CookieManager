@@ -12,7 +12,7 @@ An incredibly simple and lightweight library for adding, fetching, modifying, an
 Include:
 
 ```html
-<script src="https://raw.githubusercontent.com/Gigabyte5671/CookieManager/main/cookieManager.min.js"></script>
+<script src="https://gigabyte5671.github.io/CookieManager/cookieManager.min.js"></script>
 ```
 
 To create a cookie, call the setCookie() function with arguments for the cookie name, the value, and the lifespan (in days).
