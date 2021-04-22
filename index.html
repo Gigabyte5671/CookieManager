@@ -10,15 +10,15 @@
     <meta property="og:description" content="An incredibly simple and lightweight library for adding, fetching, modifying, and removing browser cookies.">
     <meta name="author" content="Gigabyte5671">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="">
+    <meta property="og:url" content="https://gigabyte5671.github.io/CookieManager/">
     <meta name="twitter:card" content="summary">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#FAD17A">
     <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/cookies.png">
     <style>
       body{
         font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
-        background-color: rgba(216, 123, 0, 0.3);
+        background-color: rgba(216, 123, 0, 0.2);
       }
       .nav{
         position: fixed;
@@ -42,6 +42,57 @@
         margin-top: 13px;
         font-size: 24px;
       }
+      .pageContent{
+        margin: 30px;
+      }
+      h2{
+        margin-bottom: 0px;
+      }
+      h3{
+        margin-top: 30px;
+        margin-bottom: 0px;
+      }
+      p{
+        margin-top: 25px;
+        margin-bottom: 20px;
+      }
+      code{
+        display: inline-block;
+        width: 100ch;
+        padding: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        background-color: #F6F8FA;
+        border: 1px solid grey;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      button{
+        width: 10ch;
+        height: 33px;
+        transform: translateY(1px);
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        box-sizing: border-box;
+        cursor: pointer;
+        user-select: none;
+      }
+      a{
+        color: blue;
+      }
+      red{
+        color: #D73A49;
+      }
+      green{
+        color: #22863A;
+      }
+      blue{
+        color: #005CC5;
+      }
+      purple{
+        color: #6F42C1;
+      }
     </style>
   </head>
   
@@ -52,9 +103,28 @@
         <h1>cookieManager.js demo</h1>
       </div>
       
-      <div>
-        
+      <div class="pageContent">
+        <h2 style="margin-top:90px;">JavaScript Cookie Manager</h2>
+        <p style="margin-top:5px;">An incredibly simple and lightweight library for adding, fetching, modifying, and removing browser cookies.</p>
+        <h3>Usage</h3>
+        <p style="margin-top:5px;">Include:</p>
+        <code>&#60;<green>script</green> <blue>src</blue>="https://gigabyte5671.github.io/CookieManager/cookieManager.min.js"&#62;&#60;/<green>script</green>&#62;</code>
+        <p>To create a cookie, call the setCookie() function with arguments for the cookie name, the value, and the lifespan (in days). (To update a cookie, just call setCookie() again with the same name and the new value)</p>
+        <code><purple>setCookie</purple>(cookieName, cookieValue, cookieLifespan);</code><button onclick="setCookie('test_cookie', 'Hello World', 1);alert('Cookie set!');">Try it</button>
+        <p>To retrieve the value of a cookie, call the getCookie() function with an argument for the cookie name. This will return the value of the cookie as a string.</p>
+        <code><red>var</red> cookieValue = <purple>getCookie</purple>(cookieName);</code><button onclick="var x=getCookie('test_cookie');if(x!==false){alert('Cookie exists with value: ' + x);}else{alert('Cookie does not exist');}">Try it</button>
+        <p>To check if a cookie exists, call the checkCookie() function with an argument for the cookie name. This will return boolean true if the cookie exists, and boolean false if it doesn't.</p>
+        <code><red>var</red> cookieExists = <purple>checkCookie</purple>(cookieName);</code><button onclick="var y=checkCookie('test_cookie');if(y===true){alert('Cookie exists!');}else{alert('Cookie does not exist');}">Try it</button>
+        <p>Finally, to remove a cookie, call the clearCookie() function with an argument for the cookie name.</p>
+        <code><purple>clearCookie</purple>(cookieName);</code><button onclick="clearCookie('test_cookie');alert('Cookie cleared!');">Try it</button>
+        <h3>Other</h3>
+        <a href="https://icons8.com/icon/12878/cookies" target="_blank" rel="noreferrer">Cookies icon by Icons8</a>
       </div>
     </main>
   </body>
+  
+  <script src="https://gigabyte5671.github.io/CookieManager/cookieManager.min.js"></script>
+  <script>
+    
+  </script>
 </html>
