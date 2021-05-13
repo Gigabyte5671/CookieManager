@@ -7,7 +7,7 @@ cookieManager.js
 
 An incredibly simple and lightweight library for adding, fetching, modifying, and removing browser cookies.
 A demo can be found here: <a href="https://gigabyte5671.github.io/CookieManager/" target="_blank" rel="noreferrer">https://gigabyte5671.github.io/CookieManager/</a>
-
+  
 
 ### Usage ###
 
@@ -16,8 +16,9 @@ Include:
 ```html
 <script src="https://gigabyte5671.github.io/CookieManager/cookieManager.min.js"></script>
 ```
-
-To create a cookie, call the setCookie() function with arguments for the cookie name, the value, and the lifespan (in days).
+Or download the zip from the releases page.  
+  
+To create a cookie, call the setCookie() function with arguments for the cookie name, the value, and the lifespan (in days).  
 (To update a cookie, just call setCookie() again with the same name and the new value)
 
 ```javascript
@@ -30,7 +31,7 @@ To retrieve the value of a cookie, call the getCookie() function with an argumen
 var cookieValue = getCookie(cookieName);
 ```
 
-To check if a cookie exists, call the checkCookie() function with an argument for the cookie name. This will return boolean true if the cookie exists, and boolean false if it doesn't.
+To check if a cookie exists, call the checkCookie() function with an argument for the cookie name. This will return boolean true if the cookie exists, and boolean false if it doesn't.  
 (This function is faster than getCookie if you don't need to know the cookie's value)
 
 ```javascript
@@ -42,7 +43,7 @@ Finally, to remove a cookie, call the clearCookie() function with an argument fo
 ```javascript
 clearCookie(cookieName);
 ```
-
+  
 
 ### Other ###
 
