@@ -31,6 +31,7 @@ var cookieValue = getCookie(cookieName);
 ```
 
 To check if a cookie exists, call the checkCookie() function with an argument for the cookie name. This will return boolean true if the cookie exists, and boolean false if it doesn't.
+(This function is faster than getCookie if you don't need to know the cookie's value)
 
 ```javascript
 var cookieExists = checkCookie(cookieName);
