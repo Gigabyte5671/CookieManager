@@ -21,12 +21,7 @@ function getCookie(cookieName){
 }
 
 function checkCookie(cookieName){
-  var cookie = getCookie(cookieName);
-  if(cookie !== false){ //If the requested cookie exists
-    return true;
-  }else{
-    return false;
-  }
+  return document.cookie.includes(cookieName + "="); //Return true if the requested cookie name exists in the document
 }
 
 function clearCookie(cookieName){
