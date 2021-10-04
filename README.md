@@ -6,7 +6,7 @@ cookieManager.js
 #### JavaScript Cookie Manager ####
 
 An incredibly simple and lightweight library for adding, fetching, modifying, and removing browser cookies.
-A demo can be found here: <a href="https://gigabyte5671.github.io/CookieManager/" target="_blank" rel="noreferrer">https://gigabyte5671.github.io/CookieManager/</a>
+A demo can be found here: [https://gigabyte5671.github.io/CookieManager/](https://gigabyte5671.github.io/CookieManager/)
   
 
 ### Usage ###
@@ -14,7 +14,7 @@ A demo can be found here: <a href="https://gigabyte5671.github.io/CookieManager/
 Include:
 
 ```html
-<script src="https://gigabyte5671.github.io/CookieManager/cookieManager.min.js"></script>
+<script src="https://gigabyte5671.github.io/CookieManager/cookieManager.min.js" type="text/javascript"></script>
 ```
 Or download the zip from the releases page.  
   
@@ -47,4 +47,4 @@ clearCookie(cookieName);
 
 ### Other ###
 
-<a href="https://icons8.com/icon/12878/cookies" target="_blank" rel="noreferrer">Cookies icon by Icons8</a>
+[Cookies icon by Icons8](https://icons8.com/icon/12878/cookies)
