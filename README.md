@@ -44,7 +44,8 @@ Finally, to remove a cookie, call the clearCookie() function with an argument fo
 clearCookie(cookieName);
 ```
   
-
+*Note: Most browsers enforce a maximum size of 4096 bytes per cookie. Attempting to set or update a cookie with a value larger than that will fail without returning an error.*
+  
 ### Other ###
 
 [Cookies icon by Icons8](https://icons8.com/icon/12878/cookies)
