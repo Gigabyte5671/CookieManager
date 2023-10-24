@@ -4,9 +4,9 @@ CookieManager.js
 ========
 
 #### JavaScript Cookie Manager ####
+[Demo](https://cookie-manager.zakweb.dev/)
 
-An incredibly simple and lightweight library for adding, fetching, modifying, and removing browser cookies.
-A demo can be found here: [https://gigabyte5671.github.io/CookieManager/](https://gigabyte5671.github.io/CookieManager/)
+An incredibly simple and lightweight library for creating, reading, updating, and deleting browser cookies.
   
 
 ### Usage ###
